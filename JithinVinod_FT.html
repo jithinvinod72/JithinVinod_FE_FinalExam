@@ -60,7 +60,7 @@ function addColumn() {
         for (var i = 0; i < rows.length; i++) {
             var newCell = rows[i].insertCell(-1);
 			newCell.style.color = 'red';
-            newCell.innerHTML = `Row ${i} New Col ${table.rows[0].cells.length-1}`;
+            newCell.innerHTML = `Row ${i}  Col ${table.rows[0].cells.length-1}`;
         }
     }
 }
@@ -73,7 +73,7 @@ function addRow() {
         for (var i = 0; i < table.rows[0].cells.length; i++) {
             var newCell = newRow.insertCell(-1);
 			newCell.style.color = 'Green';
-            newCell.innerHTML = `New Row ${rows.length-1} Col ${i}`;
+            newCell.innerHTML = `Row ${rows.length-1} Col ${i}`;
         }
     }
 }
