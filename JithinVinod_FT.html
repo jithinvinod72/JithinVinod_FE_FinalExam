@@ -59,7 +59,7 @@ function addColumn() {
         var rows = table.getElementsByTagName('tr');
         for (var i = 0; i < rows.length; i++) {
             var newCell = rows[i].insertCell(-1);
-			newCell.style.color = 'red';
+			newCell.style.color = 'Green';
             newCell.innerHTML = `Row ${i}  Col ${table.rows[0].cells.length-1}`;
         }
     }
